@@ -2,7 +2,8 @@
 Credit Card Transaction Power BI Dashboard
 
 
-Content in this-:
+#Content in this-:
+
 1.
 Project objective
 2.
@@ -12,10 +13,12 @@ Data processing & DAX
 4.
 Dashboard & insights
 
-Project Objective
+#Project Objective
+
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 
-Import data to SQL database
+#Import data to SQL database
+
 1.
 Prepare csv file
 2.
@@ -23,8 +26,9 @@ Create tables in SQL
 3.
 import csv file into SQL
 
-DAX Queries
-Rishabh Mishra 7
+#DAX Queries
+
+Mehul dobriyal 7
 AgeGroup = SWITCH(
 TRUE(),
 'public cust_detail'[customer_age] < 30, "20-30",
@@ -55,7 +59,8 @@ ALL('public cc_detail'),
 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))
 
 
-Project Insights-
+#Project Insights-
+
 WoW change:
 •
 Revenue increased by 28.8%,
@@ -83,7 +88,8 @@ Overall Delinquent rate is 6.06%
 
 
 
-Credit card financial dashboard using Power BI:
+#Credit card financial dashboard using Power BI:
+
 •
 Developed an interactive dashboard using transaction and customer data from a SQL database, to provide real-time insights.
 •
